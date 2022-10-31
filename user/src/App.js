@@ -1,9 +1,10 @@
+import TopBanner from "./components/TopBanner/TopBanner";
 
 
 function App() {
   return (
     <>
-    
+      <TopBanner />
     </>
   );
 }
