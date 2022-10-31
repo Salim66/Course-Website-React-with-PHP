@@ -74,3 +74,17 @@
     font-family: 'Raleway', sans-serif;
     color: #666;
 }
+
+.navTitle {
+    font-family: 'Montserreat', sans-serif;
+    color: #FFF !important;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.navTitleScroll {
+    font-family: 'Montserreat', sans-serif;
+    color: #0D6EFD !important;
+    font-weight: 700;
+    font-size: 24px;
+}
