@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import './Summary.css';
+import CountUp from 'react-countup';
+import VisibilitySensor from 'react-visibility-sensor';
 
 class Summary extends Component {
   render() {
@@ -15,12 +17,28 @@ class Summary extends Component {
                         <Col sm={12} md={6} lg={8}>
                             <Row className='text-center countSection'>
                                 <Col className='text-center'>
-                                    <h1 className='countNumber'>100</h1>
+                                    <h1 className='countNumber'>
+                                        <CountUp start={0} end={100}>
+                                            {({ countUpRef, start }) => (
+                                                <VisibilitySensor onChange={start}>
+                                                    <span ref={countUpRef} />
+                                                </VisibilitySensor>
+                                            )}
+                                        </CountUp>
+                                    </h1>
                                     <h4 className='countText'>Total Projects</h4>
                                     <hr className="countLine" />
                                 </Col>
                                 <Col className='text-center'>
-                                    <h1 className='countNumber'>100</h1>
+                                    <h1 className='countNumber'>
+                                        <CountUp start={0} end={100}>
+                                            {({ countUpRef, start }) => (
+                                                <VisibilitySensor onChange={start}>
+                                                    <span ref={countUpRef} />
+                                                </VisibilitySensor>
+                                            )}
+                                        </CountUp>
+                                    </h1>
                                     <h4 className='countText'>Total Clients</h4>
                                     <hr className="countLine" />
                                 </Col>
