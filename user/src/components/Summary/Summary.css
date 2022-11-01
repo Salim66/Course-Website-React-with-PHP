@@ -45,6 +45,12 @@
     margin: auto;
 }
 
+.cardWork {
+    border-radius: 2px;
+    padding: 10px;
+    margin-top: 16%;
+}
+
 .cardTitle {
     font-size: 22px;
     font-family: 'Raleway', sans-serif;
@@ -57,4 +63,9 @@
     font-family: 'Montserreat', sans-serif;
     font-weight: 400;
     color: #000;
+}
+
+.iconBulet {
+    font-size: 16px;
+    color: #0D6EFD;
 }

@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import './Summary.css';
 
@@ -25,14 +27,14 @@ class Summary extends Component {
                             </Row>
                         </Col>
                         <Col sm={12} md={6} lg={4}>
-                            <Card>
+                            <Card className="cardWork">
                                 <Card.Body>
                                     <Card.Title className='cardTitle'>How i Work</Card.Title>
                                     <Card.Text>
-                                        <p className="cardSubTitle">Requirement Gathering</p>
-                                        <p className="cardSubTitle">System Analysis</p>
-                                        <p className="cardSubTitle">Coding Testing</p>
-                                        <p className="cardSubTitle">Implementation</p>
+                                        <p className="cardSubTitle"> <FontAwesomeIcon className='iconBulet' icon={ faCircleCheck } /> Requirement Gathering</p>
+                                        <p className="cardSubTitle"><FontAwesomeIcon className='iconBulet' icon={ faCircleCheck } /> System Analysis</p>
+                                        <p className="cardSubTitle"><FontAwesomeIcon className='iconBulet' icon={ faCircleCheck } /> Coding Testing</p>
+                                        <p className="cardSubTitle"><FontAwesomeIcon className='iconBulet' icon={ faCircleCheck } /> Implementation</p>
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
