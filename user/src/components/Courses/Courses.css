@@ -1,0 +1,27 @@
+.courseImg {
+    width: 100%;
+}
+
+.courseTitle {
+    font-size: 18px;
+    font-family: 'Montserreat', sans-serif;
+    font-weight: 600;
+}
+
+.courseDes {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.courseDetails {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Montserreat', sans-serif;
+    font-weight: 600;
+    color: #0D6EFD;
+}
+
+.courseDetails:hover {
+    text-decoration: none;
+}
