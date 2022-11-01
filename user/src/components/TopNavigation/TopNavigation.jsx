@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import NavLogo from '../../assets/images/navlogo.png';
+import './TopNavigation.css';
 
 class TopNavigation extends Component {
 
@@ -27,7 +29,7 @@ class TopNavigation extends Component {
       <>
         <Navbar fixed='top' collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container fluid={ true }>
-                <Navbar.Brand className={ this.state.navBarTitle }>Recoo</Navbar.Brand>
+                <Navbar.Brand className={ this.state.navBarTitle }> <img className='navLogo' src={ NavLogo } alt="" /> Recoo</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">
