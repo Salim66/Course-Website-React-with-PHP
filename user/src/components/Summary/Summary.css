@@ -18,3 +18,43 @@
     height: 350px;
     background-color: rgba(0, 0, 0, .7);
 }
+
+.countSection {
+    margin-top: 17% !important;
+}
+
+.countNumber {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Montserreat', sans-serif;
+    color: #FFF;
+}
+
+.countText {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    color: #FFF;
+}
+
+.countLine {
+    background-color: #FFF !important;
+    width: 100px !important;
+    height: 4px;
+    text-align: center;
+    margin: auto;
+}
+
+.cardTitle {
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #000;
+}
+
+.cardSubTitle {
+    font-size: 14px;
+    font-family: 'Montserreat', sans-serif;
+    font-weight: 400;
+    color: #000;
+}
