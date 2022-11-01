@@ -1,0 +1,23 @@
+.projectCard {
+    border-radius: 2px;
+    border: none !important;
+    padding: 2px;
+    box-shadow: 0 0 4px 0 rgba(0, 115, 230, .2);
+    text-align: center;
+}
+
+.projectCard:hover {
+    box-shadow: 0 0 8px 0 rgba(0, 115, 230, .2);
+}
+
+.projectCardTitle {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Montserreat', sans-serif;
+}
+
+.projectCardDes {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+}
