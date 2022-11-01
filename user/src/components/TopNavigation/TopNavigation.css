@@ -4,9 +4,41 @@
 }
 
 .navBackground {
+    -webkit-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
     background-color: rgba(0, 0, 0, .0);
 }
 
 .navBackgroundScroll {
+    -webkit-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
     background-color: #FFF;
+}
+
+.navItem {
+    font-size: 16px;
+    text-decoration: none !important;
+    font-family: 'Montserreat', sans-serif;
+    color: #FFF;
+    font-weight: 400;
+}
+
+.navItem {
+    font-size: 16px;
+    text-decoration: none !important;
+    font-family: 'Montserreat', sans-serif;
+    color: #FFF !important;
+    font-weight: 400;
+}
+
+.navItemScroll {
+    font-size: 16px;
+    text-decoration: none !important;
+    font-family: 'Montserreat', sans-serif;
+    color: #000 !important;
+    font-weight: 400;
 }
