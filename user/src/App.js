@@ -1,4 +1,5 @@
 import Analysis from "./components/Analysis/Analysis";
+import ClientReview from "./components/ClientReview/ClientReview";
 import Courses from "./components/Courses/Courses";
 import RecentProjects from "./components/RecentProjects/RecentProjects";
 import Services from "./components/Services/Services";
@@ -19,6 +20,7 @@ function App() {
       <RecentProjects />
       <Courses />
       <Video />
+      <ClientReview />
     </>
   );
 }

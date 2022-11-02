@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import './ClientReview.css';
+import { Col, Container, Row } from 'react-bootstrap';
+import Slider from 'react-slick';
 
 class ClientReview extends Component {
   render() {
@@ -44,7 +46,38 @@ class ClientReview extends Component {
     };
     return (
       <>
-
+        <Container>
+            <h1 className="serviceMainTitle text-center">CLIENT SAYS</h1>
+            <Slider {...settings}>
+                <div>
+                    <Row className='text-center justify-content-center'>
+                        <Col sm={12} md={6} lg={6}>
+                            <img className='clientImg' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAjA5Dukp52p77Izrd956JB57UnfxAYFRHnXXc3-fPtw&s" alt="" />
+                            <h1 className='serviceName'>Web Development</h1>
+                            <p className="serviceDescription">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur blanditiis recusandae hic, commodi illo quo. Fuga odit tempore eius qui debitis, autem, sunt dolorem in perspiciatis laudantium impedit, fugiat iste.</p>
+                        </Col>
+                    </Row>
+                </div>
+                <div>
+                    <Row className='text-center justify-content-center'>
+                        <Col sm={12} md={6} lg={6}>
+                            <img className='clientImg' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAjA5Dukp52p77Izrd956JB57UnfxAYFRHnXXc3-fPtw&s" alt="" />
+                            <h1 className='serviceName'>Web Development</h1>
+                            <p className="serviceDescription">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur blanditiis recusandae hic, commodi illo quo. Fuga odit tempore eius qui debitis, autem, sunt dolorem in perspiciatis laudantium impedit, fugiat iste.</p>
+                        </Col>
+                    </Row>
+                </div>
+                <div>
+                    <Row className='text-center justify-content-center'>
+                        <Col sm={12} md={6} lg={6}>
+                            <img className='clientImg' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAjA5Dukp52p77Izrd956JB57UnfxAYFRHnXXc3-fPtw&s" alt="" />
+                            <h1 className='serviceName'>Web Development</h1>
+                            <p className="serviceDescription">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur blanditiis recusandae hic, commodi illo quo. Fuga odit tempore eius qui debitis, autem, sunt dolorem in perspiciatis laudantium impedit, fugiat iste.</p>
+                        </Col>
+                    </Row>
+                </div>
+            </Slider>
+        </Container>
       </>
     )
   }
