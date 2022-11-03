@@ -7,9 +7,9 @@ class Courses extends Component {
     return (
       <>
         <Container >
-            <h1 className="serviceMainTitle text-center">RECENT PROJECTS</h1>
+            <h1 className="serviceMainTitle text-center">Our Courses</h1>
             <Row>
-                <Col sm={12} md={12} lg={6}>
+                <Col sm={12} md={12} lg={6} className="p-2">
                     <Row>
                         <Col sm={12} md={6} lg={6} >
                             <img className='courseImg' src="https://pmtips.net/Portals/0/EasyDNNNews/927/700600p546EDNmainimg-team-control.jpg" alt="" />
@@ -33,7 +33,7 @@ class Courses extends Component {
                         </Col>
                     </Row>
                 </Col>
-                <Col sm={12} md={12} lg={6}>
+                <Col sm={12} md={12} lg={6} className="p-2">
                     <Row>
                         <Col sm={12} md={6} lg={6}>
                             <img className='courseImg' src="https://pmtips.net/Portals/0/EasyDNNNews/927/700600p546EDNmainimg-team-control.jpg" alt="" />
@@ -45,7 +45,7 @@ class Courses extends Component {
                         </Col>
                     </Row>
                 </Col>
-                <Col sm={12} md={12} lg={6}>
+                <Col sm={12} md={12} lg={6} className="p-2">
                     <Row>
                         <Col sm={12} md={6} lg={6}>
                             <img className='courseImg' src="https://pmtips.net/Portals/0/EasyDNNNews/927/700600p546EDNmainimg-team-control.jpg" alt="" />

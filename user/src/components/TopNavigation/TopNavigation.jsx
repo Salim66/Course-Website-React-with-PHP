@@ -11,14 +11,15 @@ class TopNavigation extends Component {
             navBarTitle: 'navTitle',
             navBarBack: 'navBackground',
             navBarItem: 'navItem',
+            navResponsiveButton: 'dark',
         }
     }
 
     onScroll = () => {
         if(window.scrollY > 100){
-            this.setState({ navBarTitle: 'navTitleScroll', navBarBack: 'navBackgroundScroll', navBarItem: 'navItemScroll' });
+            this.setState({ navBarTitle: 'navTitleScroll', navBarBack: 'navBackgroundScroll', navBarItem: 'navItemScroll', navResponsiveButton: 'light' });
         }else if(window.screenY < 100){
-            this.setState({ navBarTitle: 'navTitle', navBarBack: 'navBackground', navBarItem: 'navItem' });
+            this.setState({ navBarTitle: 'navTitle', navBarBack: 'navBackground', navBarItem: 'navItem', navResponsiveButton: 'dark' });
         }
     }
 
@@ -29,7 +30,7 @@ class TopNavigation extends Component {
   render() {
     return (
       <>
-        <Navbar fixed='top' collapseOnSelect expand="lg" className={ this.state.navBarBack } variant="dark">
+        <Navbar fixed='top' collapseOnSelect expand="lg" className={ this.state.navBarBack } variant={ this.state.navResponsiveButton }>
             <Container fluid={ true }>
                 <Navbar.Brand className={ this.state.navBarTitle }> <img className='navLogo' src={ NavLogo } alt="" /> Recoo</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />

@@ -9,7 +9,7 @@ class RecentProjects extends Component {
         <Container>
             <h1 className="serviceMainTitle text-center">RECENT PROJECTS</h1>
             <Row>
-                <Col sm={12} md={6} lg={4}>
+                <Col sm={12} md={6} lg={4} className="p-2">
                     <Card className='projectCard'>
                         <img src="https://static.skillshare.com/cdn-cgi/image/quality=85,width=1242,height=839,format=auto/uploads/project/373921/cover_1242_a7a72bdcab531d2f78891196ab4f77e8.jpg" alt="" />
                         <Card.Body>
@@ -19,7 +19,7 @@ class RecentProjects extends Component {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col sm={12} md={6} lg={4}>
+                <Col sm={12} md={6} lg={4} className="p-2">
                     <Card className='projectCard'>
                         <img src="https://static.skillshare.com/cdn-cgi/image/quality=85,width=1242,height=839,format=auto/uploads/project/373921/cover_1242_a7a72bdcab531d2f78891196ab4f77e8.jpg" alt="" />
                         <Card.Body>
@@ -29,7 +29,7 @@ class RecentProjects extends Component {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col sm={12} md={6} lg={4}>
+                <Col sm={12} md={6} lg={4} className="p-2">
                     <Card className='projectCard'>
                         <img src="https://static.skillshare.com/cdn-cgi/image/quality=85,width=1242,height=839,format=auto/uploads/project/373921/cover_1242_a7a72bdcab531d2f78891196ab4f77e8.jpg" alt="" />
                         <Card.Body>
