@@ -2,3 +2,7 @@
     margin-top: 5rem;
     box-shadow: 0 0 4px 0 rgba(0, 115, 230, .2);
 }
+
+.footer_info {
+    text-align: justify !important;
+}
