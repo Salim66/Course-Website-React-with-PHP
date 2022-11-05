@@ -18,7 +18,7 @@ function App() {
         <Route exact path="/services" element={ <ServicePage /> } />
         <Route exact path="/courses" element={ <AllCoursesPage/> } />
         <Route exact path="/portfolio" element={ <AllProjectsPage /> } />
-        <Route exact path="/courses" element={ <ContactPage /> } />
+        <Route exact path="/contact" element={ <ContactPage /> } />
         <Route exact path="/about" element={ <AboutPage/> } />
       </Routes>      
     </>

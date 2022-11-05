@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import NavLogo from '../../assets/images/navlogo.png';
 import './TopNavigation.css';
+import { NavLink } from 'react-router-dom';
 
 class TopNavigation extends Component {
 
@@ -38,12 +39,12 @@ class TopNavigation extends Component {
                 <Nav className="me-auto">
                 </Nav>
                 <Nav>
-                    <Nav.Link className={ this.state.navBarItem } href="#deets">HOME</Nav.Link>
-                    <Nav.Link className={ this.state.navBarItem } href="#deets">SERVICES</Nav.Link>
-                    <Nav.Link className={ this.state.navBarItem } href="#deets">COURSES</Nav.Link>
-                    <Nav.Link className={ this.state.navBarItem } href="#deets">PORTFOLIO</Nav.Link>
-                    <Nav.Link className={ this.state.navBarItem } href="#deets">CONTACT</Nav.Link>
-                    <Nav.Link className={ this.state.navBarItem } href="#deets">ABOUT</Nav.Link>
+                    <Nav.Link><NavLink className={ this.state.navBarItem } to="/">HOME</NavLink></Nav.Link>
+                    <Nav.Link><NavLink className={ this.state.navBarItem } to="/services">SERVICES</NavLink></Nav.Link>
+                    <Nav.Link><NavLink className={ this.state.navBarItem } to="/courses">COURSES</NavLink></Nav.Link>
+                    <Nav.Link><NavLink className={ this.state.navBarItem } to="/portfolio">PORTFOLIO</NavLink></Nav.Link>
+                    <Nav.Link><NavLink className={ this.state.navBarItem } to="/contact">CONTACT</NavLink></Nav.Link>
+                    <Nav.Link><NavLink className={ this.state.navBarItem } to="/about">ABOUT</NavLink></Nav.Link>
                 </Nav>
                 </Navbar.Collapse>
             </Container>
