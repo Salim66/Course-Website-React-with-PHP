@@ -1,0 +1,20 @@
+.topPageBanner {
+    background-image: url(../../assets/images/top-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 280px;
+}
+
+.topPageOverlay {
+    position: absolute;
+    width: 100%;
+    height: 280px;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.topPageContent {
+    margin-top: 9rem;
+}
