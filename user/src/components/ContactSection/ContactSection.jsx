@@ -7,7 +7,7 @@ import './ContactSection.css';
 class ContactSection extends Component {
   render() {
     return (
-      <Container>
+      <Container className="mt-5">
         <Row>
             <Col sm={12} md={6} lg={6}>
                 <h1 className="serviceName">Quick Connect</h1>

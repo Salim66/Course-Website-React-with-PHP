@@ -6,6 +6,7 @@ import AllCoursesPage from "./pages/AllCoursesPage";
 import AllProjectsPage from "./pages/AllProjectsPage";
 import ContactPage from "./pages/ContactPage";
 import HomePage from "./pages/HomePage";
+import ServicePage from "./pages/ServicePage";
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
       {/* <AboutPage/> */}
       {/* <AllCoursesPage/> */}
       {/* <AllProjectsPage /> */}
-      <ContactPage />
+      {/* <ContactPage /> */}
+      <ServicePage />
     </>
   );
 }
