@@ -32,7 +32,7 @@
     font-size: 16px;
     text-decoration: none !important;
     font-family: 'Montserreat', sans-serif;
-    color: #FFF !important;
+    color: #FFF;
     font-weight: 400;
 }
 
@@ -42,4 +42,8 @@
     font-family: 'Montserreat', sans-serif;
     color: #000 !important;
     font-weight: 400;
+}
+
+.active {
+    color: #008aee;
 }

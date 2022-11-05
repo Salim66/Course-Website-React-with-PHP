@@ -9,7 +9,7 @@ class ServicePage extends Component {
   render() {
     return (
       <>
-        <TopNavigation />
+        <TopNavigation title="Services" />
         <PageTop pagetitle="Services" />
         <Services />
         <ContactSection />
