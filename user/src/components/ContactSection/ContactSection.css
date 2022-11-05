@@ -1,0 +1,5 @@
+.form-control:focus {
+    border-radius: 5px !important;
+    border-color: #0D6EFD !important;
+    box-shadow: 0 0 4px 0 rgba(0, 115, 230, .2) !important;
+}
