@@ -25,9 +25,8 @@ class Footer extends Component {
                 </Col>
                 <Col sm={12} md={6} lg={3} className="footer_info p-5">
                     <h1 className='serviceName'>Information</h1>
-                    <a className='footerLink' href="#">About Me</a><br />
-                    <a className='footerLink' href="#">Resume Me</a><br />
-                    <a className='footerLink' href="#">Contact Me</a>
+                    <Link className='footerLink' to="/about">About Me</Link><br />
+                    <Link className='footerLink' to="/contact">Contact Me</Link>
                 </Col>
                 <Col sm={12} md={6} lg={3} className="footer_info p-5">
                     <h1 className='serviceName'>Legal</h1>

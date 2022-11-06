@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Button, Card, Col, Container, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './RecentProjects.css';
 
 class RecentProjects extends Component {
@@ -15,7 +16,7 @@ class RecentProjects extends Component {
                         <Card.Body>
                             <Card.Title className='projectCardTitle'>New Project</Card.Title>
                             <Card.Text className='projectCardDes'> Lorem ipsum dolor sit amet. </Card.Text>
-                            <Button>Read More</Button>
+                            <Link to="/project-description"><Button>Read More</Button></Link>
                         </Card.Body>
                     </Card>
                 </Col>

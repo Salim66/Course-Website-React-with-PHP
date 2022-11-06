@@ -11,6 +11,7 @@ import { Routes, Route } from 'react-router-dom';
 import RefundPolicyPage from "./pages/RefundPolicyPage";
 import TermsPage from "./pages/TermsPage";
 import PrivacyPage from "./pages/PrivacyPage";
+import ProjectDescriptionPage from "./pages/ProjectDescriptionPage";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route exact path="/refund" element={ <RefundPolicyPage /> } />
         <Route exact path="/terms" element={ <TermsPage /> } />
         <Route exact path="/privacy" element={ <PrivacyPage /> } />
+        <Route exact path="/project-description" element={ <ProjectDescriptionPage /> } />
       </Routes>      
     </>
   );
