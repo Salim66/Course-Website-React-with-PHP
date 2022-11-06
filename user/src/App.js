@@ -12,6 +12,7 @@ import RefundPolicyPage from "./pages/RefundPolicyPage";
 import TermsPage from "./pages/TermsPage";
 import PrivacyPage from "./pages/PrivacyPage";
 import ProjectDescriptionPage from "./pages/ProjectDescriptionPage";
+import CourseDetailsPage from "./pages/CourseDetailsPage";
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route exact path="/terms" element={ <TermsPage /> } />
         <Route exact path="/privacy" element={ <PrivacyPage /> } />
         <Route exact path="/project-description" element={ <ProjectDescriptionPage /> } />
+        <Route exact path="/course-description" element={ <CourseDetailsPage /> } />
       </Routes>      
     </>
   );

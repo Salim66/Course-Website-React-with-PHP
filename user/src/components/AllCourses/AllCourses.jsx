@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 class AllCourses extends Component {
   render() {
@@ -15,7 +16,7 @@ class AllCourses extends Component {
                         <Col sm={12} md={6} lg={6} >
                             <h5 className="courseTitle">Web Development</h5>
                             <p className="courseDes">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, mollitia.</p>
-                            <a href="#" className="courseDetails">Read More</a>
+                            <Link to="/course-description" className="courseDetails">Read More</Link>
                         </Col>
                     </Row>
                 </Col>

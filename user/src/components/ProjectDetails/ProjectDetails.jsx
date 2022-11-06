@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Button, Col, Container, Row } from 'react-bootstrap';
 
 class ProjectDetails extends Component {
   render() {
@@ -23,6 +23,7 @@ class ProjectDetails extends Component {
                         <li className="serviceDescription">Lorem, ipsum dolor.</li>
                         <li className="serviceDescription">Lorem ipsum dolor sit amet consectetur.</li>
                     </ul>
+                    <Button>More Info</Button>
                 </Col>
             </Row>
         </Container>
