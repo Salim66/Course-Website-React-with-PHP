@@ -10,6 +10,7 @@ import ServicePage from "./pages/ServicePage";
 import { Routes, Route } from 'react-router-dom';
 import RefundPolicyPage from "./pages/RefundPolicyPage";
 import TermsPage from "./pages/TermsPage";
+import PrivacyPage from "./pages/PrivacyPage";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route exact path="/about" element={ <AboutPage/> } />
         <Route exact path="/refund" element={ <RefundPolicyPage /> } />
         <Route exact path="/terms" element={ <TermsPage /> } />
+        <Route exact path="/privacy" element={ <PrivacyPage /> } />
       </Routes>      
     </>
   );
