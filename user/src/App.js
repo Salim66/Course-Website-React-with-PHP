@@ -9,6 +9,7 @@ import HomePage from "./pages/HomePage";
 import ServicePage from "./pages/ServicePage";
 import { Routes, Route } from 'react-router-dom';
 import RefundPolicyPage from "./pages/RefundPolicyPage";
+import TermsPage from "./pages/TermsPage";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route exact path="/contact" element={ <ContactPage /> } />
         <Route exact path="/about" element={ <AboutPage/> } />
         <Route exact path="/refund" element={ <RefundPolicyPage /> } />
+        <Route exact path="/terms" element={ <TermsPage /> } />
       </Routes>      
     </>
   );
